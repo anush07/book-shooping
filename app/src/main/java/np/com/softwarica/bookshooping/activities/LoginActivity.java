@@ -13,10 +13,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 import np.com.softwarica.bookshooping.R;
@@ -92,6 +96,13 @@ public class LoginActivity extends AppCompatActivity {
         dialog.setMessage("Loading...");
         dialog.setCancelable(false);
         dialog.show();
+
+//        auth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+//            @Override
+//            public void onComplete(@NonNull Task<AuthResult> task) {
+//
+//            }
+//        })
 
 
         auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(task -> {

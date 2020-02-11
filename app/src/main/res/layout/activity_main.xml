@@ -21,7 +21,7 @@
             android:layout_marginLeft="16dp"
             android:fontFamily="@font/quicksand_bold"
             android:text="Home"
-            android:textColor="@color/colorWhite"
+            android:textColor="#ffffff"
             android:textSize="15sp" />
 
         <TextView
@@ -36,7 +36,7 @@
             android:background="@drawable/drawable_bg_cart"
             android:gravity="center"
             android:text="10"
-            android:textColor="@color/colorWhite"
+            android:textColor="#FFFFFF"
             android:textSize="10sp"
             android:textStyle="bold" />
 
@@ -48,7 +48,7 @@
             android:layout_marginRight="8dp"
             android:padding="12dp"
             android:src="@drawable/ic_shopping_cart"
-            android:tint="@color/colorWhite" />
+            android:tint="#ffffff" />
     </RelativeLayout>
 
     <FrameLayout
