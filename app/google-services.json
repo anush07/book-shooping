@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "223513043162",
+    "firebase_url": "https://book-shooping.firebaseio.com",
+    "project_id": "book-shooping",
+    "storage_bucket": "book-shooping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513043162:android:5b5c68eed1adbcea61c5e3",
+        "android_client_info": {
+          "package_name": "np.com.softwarica.bookshooping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513043162-3e7phc6si7opdc7u3k5lagr3b73v5q3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDstz4-Pm7aO2H5COAuuSkTCHymwkOMfo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513043162-3e7phc6si7opdc7u3k5lagr3b73v5q3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
