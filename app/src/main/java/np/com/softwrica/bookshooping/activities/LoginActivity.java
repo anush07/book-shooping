@@ -1,4 +1,4 @@
-package np.com.softwarica.bookshooping.activities;
+package np.com.softwrica.bookshooping.activities;
 
 import android.app.Notification;
 import android.app.ProgressDialog;
